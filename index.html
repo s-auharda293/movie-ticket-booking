@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Booking</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container grid grid-rows--5">
+      <section class="movie-selection">
+        <p>Pick a movie</p>
+        <div>
+          <select name="movie-dropdown" id="movie-dropdown">
+            <option value="Select a movie">Select a movie</option>
+            <option value="10">Avenger($10)</option>
+            <option value="9">Pulp Fiction($9)</option>
+            <option value="15">12 Angry Men($15)</option>
+            <option value="13">Serpendity($13)</option>
+          </select>
+        </div>
+      </section>
+      <section class="screen-info">
+        <div class="screen-content">
+          <div class="semi-circle semi-circle--na"></div>
+          <span>N/A</span>
+        </div>
+        <div class="screen-content">
+          <div class="semi-circle semi-circle--selected"></div>
+          <span>Selected</span>
+        </div>
+        <div class="screen-content">
+          <div class="semi-circle semi-circle--occupied"></div>
+          <span>Occupied</span>
+        </div>
+      </section>
+      <section class="screen">
+        <div class="screen-parent">
+          <div class="screen-child"></div>
+        </div>
+      </section>
+      <section class="seats">
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--na"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--occupied"></div>
+        <div class="seat semi-circle semi-circle--occupied"></div>
+        <div class="seat semi-circle semi-circle--occupied"></div>
+        <div class="seat semi-circle semi-circle--occupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--occupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--na"></div>
+        <div class="seat semi-circle semi-circle--na"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+        <div class="seat semi-circle semi-circle--unoccupied"></div>
+      </section>
+      <section class="ticket-info">
+        <!-- <p></p -->
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
